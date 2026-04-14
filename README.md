@@ -3,6 +3,9 @@
 A simple blog application built with **Django**.  
 This project allows users to sign up, log in, create posts, view their own posts, and manage sessions with authentication.
 
+<img width="1906" height="1008" alt="image" src="https://github.com/user-attachments/assets/6e43f1ba-a794-45b5-b3c0-db0fdfb62264" />
+
+
 ---
 
 ## 🚀 Features
@@ -31,15 +34,20 @@ This project allows users to sign up, log in, create posts, view their own posts
    ```bash
    git clone https://github.com/Monasri29-hub/BlogBook.git
    cd BlogBook
-2. **- Create a virtual environment**
+2. **Create a virtual environment**
+   ```bash
    python -m venv venv
    source venv/bin/activate   # On Linux/Mac
    venv\Scripts\activate      # On Windows
-3. **- Install dependencies**
+3. **Install dependencies**
+   ```bash
    pip install -r requirements.txt
-4. **- Apply migrations**
-   python manage.py migrate
+4. **Apply migrations**
+   ```bash
+    python manage.py migrate
 5. **Run the development server**
+   ```bash
    python manage.py runserver
 6. **Open your browser and go to:**
+    ```bash
     http://127.0.0.1:8000/
